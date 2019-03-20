@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70A01ED55775F6F68E170793 /* libPods-LearnRunloop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4143E3DC05D42C1F7723C043 /* libPods-LearnRunloop.a */; };
+		A20674422240DFDD00066F19 /* LRExampleCustomEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20674412240DFDD00066F19 /* LRExampleCustomEventViewController.m */; };
+		A20674452240E00800066F19 /* MyEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A20674442240E00800066F19 /* MyEventModel.m */; };
+		A23DA28D223D46D4009D2AC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA28C223D46D4009D2AC7 /* AppDelegate.m */; };
+		A23DA293223D46D4009D2AC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23DA291223D46D4009D2AC7 /* Main.storyboard */; };
+		A23DA295223D46D6009D2AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23DA294223D46D6009D2AC7 /* Assets.xcassets */; };
+		A23DA298223D46D6009D2AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23DA296223D46D6009D2AC7 /* LaunchScreen.storyboard */; };
+		A23DA29B223D46D6009D2AC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA29A223D46D6009D2AC7 /* main.m */; };
+		A23DA2A4223D4796009D2AC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2A2223D4796009D2AC7 /* ViewController.m */; };
+		A23DA2A7223D47AA009D2AC7 /* LREntryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2A6223D47AA009D2AC7 /* LREntryModel.m */; };
+		A23DA2AC223D5064009D2AC7 /* LRRelationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2AB223D5064009D2AC7 /* LRRelationViewController.m */; };
+		A23DA2AF223D549B009D2AC7 /* LRDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2AE223D549B009D2AC7 /* LRDemoView.m */; };
+		A23DA2B9223D5CD1009D2AC7 /* LRCustomThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2B8223D5CD1009D2AC7 /* LRCustomThread.m */; };
+		A23DA2BD223D6AC7009D2AC7 /* LRUsageObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2BC223D6AC7009D2AC7 /* LRUsageObserverViewController.m */; };
+		A23DA2C0223D6D3C009D2AC7 /* LRCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2BF223D6D3C009D2AC7 /* LRCustomViewController.m */; };
+		A23DA2C3223D6E4D009D2AC7 /* LRUsageTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2C2223D6E4D009D2AC7 /* LRUsageTimerViewController.m */; };
+		A23DA2C6223D6E5B009D2AC7 /* LRUsageSource0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2C5223D6E5B009D2AC7 /* LRUsageSource0ViewController.m */; };
+		A23DA2C9223D6E65009D2AC7 /* LRUsageSource1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2C8223D6E65009D2AC7 /* LRUsageSource1ViewController.m */; };
+		A23DA2CC223DCF43009D2AC7 /* LRUsageBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2CB223DCF43009D2AC7 /* LRUsageBlockViewController.m */; };
+		A23DA2CF223DD06E009D2AC7 /* LRUsageDispatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2CE223DD06E009D2AC7 /* LRUsageDispatchViewController.m */; };
+		A23DA2D3223E0735009D2AC7 /* LRExampleRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2D2223E0735009D2AC7 /* LRExampleRunViewController.m */; };
+		A23DA2D6223E086C009D2AC7 /* LRExampleSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2D5223E086C009D2AC7 /* LRExampleSwitchViewController.m */; };
+		A23DA2D9223E1A47009D2AC7 /* LRExampleRunInActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2D8223E1A47009D2AC7 /* LRExampleRunInActionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4143E3DC05D42C1F7723C043 /* libPods-LearnRunloop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnRunloop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20674402240DFDD00066F19 /* LRExampleCustomEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRExampleCustomEventViewController.h; sourceTree = "<group>"; };
+		A20674412240DFDD00066F19 /* LRExampleCustomEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRExampleCustomEventViewController.m; sourceTree = "<group>"; };
+		A20674432240E00800066F19 /* MyEventModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyEventModel.h; sourceTree = "<group>"; };
+		A20674442240E00800066F19 /* MyEventModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyEventModel.m; sourceTree = "<group>"; };
+		A23DA288223D46D4009D2AC7 /* LearnRunloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRunloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23DA28B223D46D4009D2AC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A23DA28C223D46D4009D2AC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A23DA292223D46D4009D2AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A23DA294223D46D6009D2AC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A23DA297223D46D6009D2AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A23DA299223D46D6009D2AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23DA29A223D46D6009D2AC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A23DA2A2223D4796009D2AC7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A23DA2A3223D4796009D2AC7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A23DA2A5223D47AA009D2AC7 /* LREntryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LREntryModel.h; sourceTree = "<group>"; };
+		A23DA2A6223D47AA009D2AC7 /* LREntryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LREntryModel.m; sourceTree = "<group>"; };
+		A23DA2A8223D4A87009D2AC7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A23DA2AA223D5064009D2AC7 /* LRRelationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRRelationViewController.h; sourceTree = "<group>"; };
+		A23DA2AB223D5064009D2AC7 /* LRRelationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRRelationViewController.m; sourceTree = "<group>"; };
+		A23DA2AD223D549B009D2AC7 /* LRDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRDemoView.h; sourceTree = "<group>"; };
+		A23DA2AE223D549B009D2AC7 /* LRDemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRDemoView.m; sourceTree = "<group>"; };
+		A23DA2B7223D5CD1009D2AC7 /* LRCustomThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRCustomThread.h; sourceTree = "<group>"; };
+		A23DA2B8223D5CD1009D2AC7 /* LRCustomThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRCustomThread.m; sourceTree = "<group>"; };
+		A23DA2BB223D6AC7009D2AC7 /* LRUsageObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUsageObserverViewController.h; sourceTree = "<group>"; };
+		A23DA2BC223D6AC7009D2AC7 /* LRUsageObserverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRUsageObserverViewController.m; sourceTree = "<group>"; };
+		A23DA2BE223D6D3C009D2AC7 /* LRCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRCustomViewController.h; sourceTree = "<group>"; };
+		A23DA2BF223D6D3C009D2AC7 /* LRCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRCustomViewController.m; sourceTree = "<group>"; };
+		A23DA2C1223D6E4D009D2AC7 /* LRUsageTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUsageTimerViewController.h; sourceTree = "<group>"; };
+		A23DA2C2223D6E4D009D2AC7 /* LRUsageTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRUsageTimerViewController.m; sourceTree = "<group>"; };
+		A23DA2C4223D6E5B009D2AC7 /* LRUsageSource0ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUsageSource0ViewController.h; sourceTree = "<group>"; };
+		A23DA2C5223D6E5B009D2AC7 /* LRUsageSource0ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRUsageSource0ViewController.m; sourceTree = "<group>"; };
+		A23DA2C7223D6E65009D2AC7 /* LRUsageSource1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUsageSource1ViewController.h; sourceTree = "<group>"; };
+		A23DA2C8223D6E65009D2AC7 /* LRUsageSource1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRUsageSource1ViewController.m; sourceTree = "<group>"; };
+		A23DA2CA223DCF43009D2AC7 /* LRUsageBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUsageBlockViewController.h; sourceTree = "<group>"; };
+		A23DA2CB223DCF43009D2AC7 /* LRUsageBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRUsageBlockViewController.m; sourceTree = "<group>"; };
+		A23DA2CD223DD06E009D2AC7 /* LRUsageDispatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUsageDispatchViewController.h; sourceTree = "<group>"; };
+		A23DA2CE223DD06E009D2AC7 /* LRUsageDispatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRUsageDispatchViewController.m; sourceTree = "<group>"; };
+		A23DA2D1223E0735009D2AC7 /* LRExampleRunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRExampleRunViewController.h; sourceTree = "<group>"; };
+		A23DA2D2223E0735009D2AC7 /* LRExampleRunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRExampleRunViewController.m; sourceTree = "<group>"; };
+		A23DA2D4223E086C009D2AC7 /* LRExampleSwitchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRExampleSwitchViewController.h; sourceTree = "<group>"; };
+		A23DA2D5223E086C009D2AC7 /* LRExampleSwitchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRExampleSwitchViewController.m; sourceTree = "<group>"; };
+		A23DA2D7223E1A47009D2AC7 /* LRExampleRunInActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRExampleRunInActionViewController.h; sourceTree = "<group>"; };
+		A23DA2D8223E1A47009D2AC7 /* LRExampleRunInActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRExampleRunInActionViewController.m; sourceTree = "<group>"; };
+		AB1B0E9F03C6AA46B3594AA0 /* Pods-LearnRunloop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRunloop.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRunloop/Pods-LearnRunloop.release.xcconfig"; sourceTree = "<group>"; };
+		E8EB3236020C067884F0E571 /* Pods-LearnRunloop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRunloop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnRunloop/Pods-LearnRunloop.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23DA285223D46D4009D2AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A01ED55775F6F68E170793 /* libPods-LearnRunloop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA3DCEF174025BEEF2C217F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8EB3236020C067884F0E571 /* Pods-LearnRunloop.debug.xcconfig */,
+				AB1B0E9F03C6AA46B3594AA0 /* Pods-LearnRunloop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EAC4D4B4AF3CEE2318F2E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4143E3DC05D42C1F7723C043 /* libPods-LearnRunloop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A206743F2240DF8300066F19 /* MyEventLoop */ = {
+			isa = PBXGroup;
+			children = (
+				A20674402240DFDD00066F19 /* LRExampleCustomEventViewController.h */,
+				A20674412240DFDD00066F19 /* LRExampleCustomEventViewController.m */,
+				A20674432240E00800066F19 /* MyEventModel.h */,
+				A20674442240E00800066F19 /* MyEventModel.m */,
+			);
+			path = MyEventLoop;
+			sourceTree = "<group>";
+		};
+		A23DA27F223D46D4009D2AC7 = {
+			isa = PBXGroup;
+			children = (
+				A23DA28A223D46D4009D2AC7 /* LearnRunloop */,
+				A23DA289223D46D4009D2AC7 /* Products */,
+				5BA3DCEF174025BEEF2C217F /* Pods */,
+				9EAC4D4B4AF3CEE2318F2E4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A23DA289223D46D4009D2AC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23DA288223D46D4009D2AC7 /* LearnRunloop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23DA28A223D46D4009D2AC7 /* LearnRunloop */ = {
+			isa = PBXGroup;
+			children = (
+				A23DA28B223D46D4009D2AC7 /* AppDelegate.h */,
+				A23DA28C223D46D4009D2AC7 /* AppDelegate.m */,
+				A23DA294223D46D6009D2AC7 /* Assets.xcassets */,
+				A23DA2B6223D5CC0009D2AC7 /* Common */,
+				A23DA2A9223D5052009D2AC7 /* Concept */,
+				A23DA2A1223D4796009D2AC7 /* Entry */,
+				A23DA2D0223E071F009D2AC7 /* Examples */,
+				A23DA299223D46D6009D2AC7 /* Info.plist */,
+				A23DA296223D46D6009D2AC7 /* LaunchScreen.storyboard */,
+				A23DA29A223D46D6009D2AC7 /* main.m */,
+				A23DA291223D46D4009D2AC7 /* Main.storyboard */,
+				A23DA2A8223D4A87009D2AC7 /* PrefixHeader.pch */,
+				A23DA2BA223D6AAD009D2AC7 /* Usage */,
+			);
+			path = LearnRunloop;
+			sourceTree = "<group>";
+		};
+		A23DA2A1223D4796009D2AC7 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				A23DA2A3223D4796009D2AC7 /* ViewController.h */,
+				A23DA2A2223D4796009D2AC7 /* ViewController.m */,
+				A23DA2A5223D47AA009D2AC7 /* LREntryModel.h */,
+				A23DA2A6223D47AA009D2AC7 /* LREntryModel.m */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		A23DA2A9223D5052009D2AC7 /* Concept */ = {
+			isa = PBXGroup;
+			children = (
+				A23DA2AD223D549B009D2AC7 /* LRDemoView.h */,
+				A23DA2AE223D549B009D2AC7 /* LRDemoView.m */,
+				A23DA2AA223D5064009D2AC7 /* LRRelationViewController.h */,
+				A23DA2AB223D5064009D2AC7 /* LRRelationViewController.m */,
+			);
+			path = Concept;
+			sourceTree = "<group>";
+		};
+		A23DA2B6223D5CC0009D2AC7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A23DA2B7223D5CD1009D2AC7 /* LRCustomThread.h */,
+				A23DA2B8223D5CD1009D2AC7 /* LRCustomThread.m */,
+				A23DA2BE223D6D3C009D2AC7 /* LRCustomViewController.h */,
+				A23DA2BF223D6D3C009D2AC7 /* LRCustomViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A23DA2BA223D6AAD009D2AC7 /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+				A23DA2CA223DCF43009D2AC7 /* LRUsageBlockViewController.h */,
+				A23DA2CB223DCF43009D2AC7 /* LRUsageBlockViewController.m */,
+				A23DA2CD223DD06E009D2AC7 /* LRUsageDispatchViewController.h */,
+				A23DA2CE223DD06E009D2AC7 /* LRUsageDispatchViewController.m */,
+				A23DA2BB223D6AC7009D2AC7 /* LRUsageObserverViewController.h */,
+				A23DA2BC223D6AC7009D2AC7 /* LRUsageObserverViewController.m */,
+				A23DA2C4223D6E5B009D2AC7 /* LRUsageSource0ViewController.h */,
+				A23DA2C5223D6E5B009D2AC7 /* LRUsageSource0ViewController.m */,
+				A23DA2C7223D6E65009D2AC7 /* LRUsageSource1ViewController.h */,
+				A23DA2C8223D6E65009D2AC7 /* LRUsageSource1ViewController.m */,
+				A23DA2C1223D6E4D009D2AC7 /* LRUsageTimerViewController.h */,
+				A23DA2C2223D6E4D009D2AC7 /* LRUsageTimerViewController.m */,
+			);
+			path = Usage;
+			sourceTree = "<group>";
+		};
+		A23DA2D0223E071F009D2AC7 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				A23DA2D7223E1A47009D2AC7 /* LRExampleRunInActionViewController.h */,
+				A23DA2D8223E1A47009D2AC7 /* LRExampleRunInActionViewController.m */,
+				A23DA2D1223E0735009D2AC7 /* LRExampleRunViewController.h */,
+				A23DA2D2223E0735009D2AC7 /* LRExampleRunViewController.m */,
+				A23DA2D4223E086C009D2AC7 /* LRExampleSwitchViewController.h */,
+				A23DA2D5223E086C009D2AC7 /* LRExampleSwitchViewController.m */,
+				A206743F2240DF8300066F19 /* MyEventLoop */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23DA287223D46D4009D2AC7 /* LearnRunloop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23DA29E223D46D6009D2AC7 /* Build configuration list for PBXNativeTarget "LearnRunloop" */;
+			buildPhases = (
+				3B33BE11E899395BB44331D3 /* [CP] Check Pods Manifest.lock */,
+				A23DA284223D46D4009D2AC7 /* Sources */,
+				A23DA285223D46D4009D2AC7 /* Frameworks */,
+				A23DA286223D46D4009D2AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnRunloop;
+			productName = LearnRunloop;
+			productReference = A23DA288223D46D4009D2AC7 /* LearnRunloop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23DA280223D46D4009D2AC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "zhikun wu";
+				TargetAttributes = {
+					A23DA287223D46D4009D2AC7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A23DA283223D46D4009D2AC7 /* Build configuration list for PBXProject "LearnRunloop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23DA27F223D46D4009D2AC7;
+			productRefGroup = A23DA289223D46D4009D2AC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23DA287223D46D4009D2AC7 /* LearnRunloop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23DA286223D46D4009D2AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23DA298223D46D6009D2AC7 /* LaunchScreen.storyboard in Resources */,
+				A23DA295223D46D6009D2AC7 /* Assets.xcassets in Resources */,
+				A23DA293223D46D4009D2AC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B33BE11E899395BB44331D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnRunloop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23DA284223D46D4009D2AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23DA2D3223E0735009D2AC7 /* LRExampleRunViewController.m in Sources */,
+				A23DA2C3223D6E4D009D2AC7 /* LRUsageTimerViewController.m in Sources */,
+				A23DA2C9223D6E65009D2AC7 /* LRUsageSource1ViewController.m in Sources */,
+				A23DA2C0223D6D3C009D2AC7 /* LRCustomViewController.m in Sources */,
+				A20674452240E00800066F19 /* MyEventModel.m in Sources */,
+				A23DA2A4223D4796009D2AC7 /* ViewController.m in Sources */,
+				A23DA2D6223E086C009D2AC7 /* LRExampleSwitchViewController.m in Sources */,
+				A23DA29B223D46D6009D2AC7 /* main.m in Sources */,
+				A23DA2D9223E1A47009D2AC7 /* LRExampleRunInActionViewController.m in Sources */,
+				A23DA2A7223D47AA009D2AC7 /* LREntryModel.m in Sources */,
+				A23DA2CF223DD06E009D2AC7 /* LRUsageDispatchViewController.m in Sources */,
+				A23DA2B9223D5CD1009D2AC7 /* LRCustomThread.m in Sources */,
+				A20674422240DFDD00066F19 /* LRExampleCustomEventViewController.m in Sources */,
+				A23DA2BD223D6AC7009D2AC7 /* LRUsageObserverViewController.m in Sources */,
+				A23DA2AC223D5064009D2AC7 /* LRRelationViewController.m in Sources */,
+				A23DA28D223D46D4009D2AC7 /* AppDelegate.m in Sources */,
+				A23DA2AF223D549B009D2AC7 /* LRDemoView.m in Sources */,
+				A23DA2CC223DCF43009D2AC7 /* LRUsageBlockViewController.m in Sources */,
+				A23DA2C6223D6E5B009D2AC7 /* LRUsageSource0ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A23DA291223D46D4009D2AC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23DA292223D46D4009D2AC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A23DA296223D46D6009D2AC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23DA297223D46D6009D2AC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23DA29C223D46D6009D2AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A23DA29D223D46D6009D2AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23DA29F223D46D6009D2AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EB3236020C067884F0E571 /* Pods-LearnRunloop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4348HP36;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LearnRunLoop/PrefixHeader.pch;
+				INFOPLIST_FILE = LearnRunloop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yibokeji.LearnRunloop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A23DA2A0223D46D6009D2AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1B0E9F03C6AA46B3594AA0 /* Pods-LearnRunloop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4348HP36;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LearnRunLoop/PrefixHeader.pch;
+				INFOPLIST_FILE = LearnRunloop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yibokeji.LearnRunloop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23DA283223D46D4009D2AC7 /* Build configuration list for PBXProject "LearnRunloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23DA29C223D46D6009D2AC7 /* Debug */,
+				A23DA29D223D46D6009D2AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23DA29E223D46D6009D2AC7 /* Build configuration list for PBXNativeTarget "LearnRunloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23DA29F223D46D6009D2AC7 /* Debug */,
+				A23DA2A0223D46D6009D2AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23DA280223D46D4009D2AC7 /* Project object */;
+}
