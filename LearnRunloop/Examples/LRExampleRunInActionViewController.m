@@ -55,8 +55,6 @@ void myObserverCallBack2(CFRunLoopObserverRef observer, CFRunLoopActivity activi
     CFRunLoopObserverRef rlo = CFRunLoopObserverCreate(NULL, kCFRunLoopEntry | kCFRunLoopExit, true, 0, myObserverCallBack2, &ctx);
     CFRunLoopAddObserver(CFRunLoopGetCurrent(), rlo, kCFRunLoopCommonModes);
     CFRelease(rlo);
-    
-    
 }
 
 #pragma mark - Actions

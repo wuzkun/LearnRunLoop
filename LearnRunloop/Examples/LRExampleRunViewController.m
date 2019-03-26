@@ -23,12 +23,8 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     LRCustomThread *thread = [[LRCustomThread alloc] initWithBlock:^{
-        NSLog(@"Before Run");
-//        while (1) {
-//            CFRunLoopRun();
-//        }
+        [[NSRunLoop currentRunLoop] addPort:[NSPort port] forMode:NSDefaultRunLoopMode];
         CFRunLoopRun();
-        NSLog(@"After Run");
     }];
     [thread start];
 }

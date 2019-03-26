@@ -23,12 +23,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //    CFRunLoopPerformBlock(CFRunLoopGetCurrent(), kCFRunLoopDefaultMode, ^{
-//
+//        NSLog(@"");
 //    });
-//    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-//
-//    });
-//    [self performSelectorOnMainThread:@selector(testSelector) withObject:nil waitUntilDone:NO];
+    [self performSelectorOnMainThread:@selector(testSelector) withObject:nil waitUntilDone:NO];
 }
 
 - (void)testSelector {

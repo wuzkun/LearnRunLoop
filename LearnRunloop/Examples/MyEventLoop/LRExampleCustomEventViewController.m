@@ -100,7 +100,7 @@ typedef NS_ENUM(NSUInteger, BUTTON_IDS) {
 - (void)threadFunc {
     CFRunLoopSourceContext ctx = {0, (__bridge void *)self, NULL, NULL, NULL, NULL, NULL, myThreadSchedule, myThreadCancel, myThreadPerform};
     CFRunLoopSourceRef rls = CFRunLoopSourceCreate(NULL, 0, &ctx);
-    CFRunLoopAddSource(CFRunLoopGetCurrent(), rls, kCFRunLoopCommonModes);
+    CFRunLoopAddSource(CFRunLoopGetCurrent(), rls, kCFRunLoopDefaultMode);
     CFRunLoopAddSource(CFRunLoopGetCurrent(), rls, (CFRunLoopMode)UITrackingRunLoopMode);
     CFRunLoopAddSource(CFRunLoopGetCurrent(), rls, (CFRunLoopMode)MY_MODE_NAME);
     CFRelease(rls);
@@ -109,7 +109,7 @@ typedef NS_ENUM(NSUInteger, BUTTON_IDS) {
     
     CFRunLoopObserverContext rloContext = {0, NULL, NULL, NULL, NULL};
     CFRunLoopObserverRef rlo = CFRunLoopObserverCreate(NULL, kCFRunLoopAllActivities, true, 0, eventCFRunLoopObserverCallBack, &rloContext);
-    CFRunLoopAddObserver(CFRunLoopGetCurrent(), rlo, kCFRunLoopCommonModes);
+    CFRunLoopAddObserver(CFRunLoopGetCurrent(), rlo, kCFRunLoopDefaultMode);
     CFRunLoopAddObserver(CFRunLoopGetCurrent(), rlo, (CFRunLoopMode)UITrackingRunLoopMode);
     CFRunLoopAddObserver(CFRunLoopGetCurrent(), rlo, (CFRunLoopMode)MY_MODE_NAME);
     

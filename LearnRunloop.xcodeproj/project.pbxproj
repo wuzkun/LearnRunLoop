@@ -10,6 +10,7 @@
 		70A01ED55775F6F68E170793 /* libPods-LearnRunloop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4143E3DC05D42C1F7723C043 /* libPods-LearnRunloop.a */; };
 		A20674422240DFDD00066F19 /* LRExampleCustomEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20674412240DFDD00066F19 /* LRExampleCustomEventViewController.m */; };
 		A20674452240E00800066F19 /* MyEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A20674442240E00800066F19 /* MyEventModel.m */; };
+		A23873AC22486A1300A87E13 /* LRTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23873AB22486A1300A87E13 /* LRTimerViewController.m */; };
 		A23DA28D223D46D4009D2AC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA28C223D46D4009D2AC7 /* AppDelegate.m */; };
 		A23DA293223D46D4009D2AC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23DA291223D46D4009D2AC7 /* Main.storyboard */; };
 		A23DA295223D46D6009D2AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23DA294223D46D6009D2AC7 /* Assets.xcassets */; };
@@ -38,6 +39,8 @@
 		A20674412240DFDD00066F19 /* LRExampleCustomEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRExampleCustomEventViewController.m; sourceTree = "<group>"; };
 		A20674432240E00800066F19 /* MyEventModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyEventModel.h; sourceTree = "<group>"; };
 		A20674442240E00800066F19 /* MyEventModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyEventModel.m; sourceTree = "<group>"; };
+		A23873AA22486A1300A87E13 /* LRTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRTimerViewController.h; sourceTree = "<group>"; };
+		A23873AB22486A1300A87E13 /* LRTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTimerViewController.m; sourceTree = "<group>"; };
 		A23DA288223D46D4009D2AC7 /* LearnRunloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRunloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23DA28B223D46D4009D2AC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A23DA28C223D46D4009D2AC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				A23DA2AE223D549B009D2AC7 /* LRDemoView.m */,
 				A23DA2AA223D5064009D2AC7 /* LRRelationViewController.h */,
 				A23DA2AB223D5064009D2AC7 /* LRRelationViewController.m */,
+				A23873AA22486A1300A87E13 /* LRTimerViewController.h */,
+				A23873AB22486A1300A87E13 /* LRTimerViewController.m */,
 			);
 			path = Concept;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				A23DA2BD223D6AC7009D2AC7 /* LRUsageObserverViewController.m in Sources */,
 				A23DA2AC223D5064009D2AC7 /* LRRelationViewController.m in Sources */,
 				A23DA28D223D46D4009D2AC7 /* AppDelegate.m in Sources */,
+				A23873AC22486A1300A87E13 /* LRTimerViewController.m in Sources */,
 				A23DA2AF223D549B009D2AC7 /* LRDemoView.m in Sources */,
 				A23DA2CC223DCF43009D2AC7 /* LRUsageBlockViewController.m in Sources */,
 				A23DA2C6223D6E5B009D2AC7 /* LRUsageSource0ViewController.m in Sources */,

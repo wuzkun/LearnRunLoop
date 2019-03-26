@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "LRRelationViewController.h"
+#import "LRTimerViewController.h"
 
 #import "LRUsageBlockViewController.h"
 #import "LRUsageDispatchViewController.h"
@@ -32,6 +33,7 @@ typedef NS_ENUM(NSUInteger, SECTIONSDS) {
 
 typedef NS_ENUM(NSUInteger, CELL_IDS) {
     CELL_ID_RELATION,
+    CELL_ID_RELATION_TIMER,
     CELL_ID_USAGE_DISPATCH_BLOCK,
     CELL_ID_USAGE_BLOCK,
     CELL_ID_USAGE_OBSERVER,
@@ -82,6 +84,8 @@ typedef NS_ENUM(NSUInteger, CELL_IDS) {
     
     [tempCells removeAllObjects];
     [tempCells addObject:[[LREntryCellModel alloc] initWithCellid:CELL_ID_RELATION andTitle:@"Runloop关系" andSubTitle:@"UI相关代码大多由RunLoop发起调用"]];
+    [tempCells addObject:[[LREntryCellModel alloc] initWithCellid:CELL_ID_RELATION_TIMER andTitle:@"Timer关系" andSubTitle:@"Timer与RunLoop关系"]];
+    
     LREntrySectionModel *sectionModel = [[LREntrySectionModel alloc] initWithSectionId:SECTION_CONCEPT andTitle:@"1. 概念" andCells:[NSArray arrayWithArray:tempCells]];
     [tempSections addObject:sectionModel];
     
@@ -142,6 +146,11 @@ typedef NS_ENUM(NSUInteger, CELL_IDS) {
         case CELL_ID_RELATION: {
             LRRelationViewController *relation = [[LRRelationViewController alloc] init];
             [self.navigationController pushViewController:relation animated:YES];
+            break;
+        }
+        case CELL_ID_RELATION_TIMER: {
+            LRTimerViewController *timer = [[LRTimerViewController alloc] init];
+            [self.navigationController pushViewController:timer animated:YES];
             break;
         }
         case CELL_ID_USAGE_BLOCK: {
